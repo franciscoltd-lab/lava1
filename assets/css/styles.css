@@ -1,0 +1,111 @@
+.home-p{
+    color: white;
+    font-size: larger;
+    font-style: inherit;
+    font-weight: 500;
+    padding: 30px;
+}
+
+.slider-height2{
+    background: rgba(0,0,0,.5);
+}
+
+.benefit-area{
+    background: rgb(24,148,213);
+    background: linear-gradient(90deg, rgba(24,148,213,0.15) 0%, rgba(255,255,255,1) 50%, rgba(24,148,213,0.15) 100%); 
+    background-position: center;
+}
+.opacity {filter: opacity(50%);}
+
+svg{
+    margin-bottom: 15px;
+}
+
+.promo-h2,
+.hero-cap{
+    text-align: center;
+}
+
+.promo{
+padding-top: 100px;
+max-width: 1000px;
+margin:10px auto;
+display:block;
+}
+
+@media(max-width: 768px){
+    .promo{
+        max-width: 100%;
+    }
+}
+
+.contact-section{
+    padding-top: 20px;
+}
+
+.map{
+    margin: 10px auto;
+    display: block;
+}
+.branches-h2{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.branch{
+    margin: 25px 20%;
+
+}
+
+.branch .sucursal a{
+    color: black;
+    font-style: oblique;
+}
+
+@media(max-width: 768px){
+
+    .map{
+        max-width: 100%;
+    }
+
+    .branch{
+        margin: 0 10px;
+    }
+}
+
+.col-8 p{
+    font-weight: 700;
+    font-size: medium;
+    
+}
+
+.col-8{
+    align-items: center;
+}
+
+@media(max-width:940px){
+    .row{
+        display: block;
+    }
+}
+
+.container .row h2{
+    text-align: center;
+    margin-top: 2%;
+}
+
+@media(min-width: 940px){
+    .p-types{
+        margin: 5% 10%;    
+                    
+    }
+
+    .col-4{
+        box-shadow: 1px 1px 4px rgba(145, 143, 143, 0.534);
+        border-radius: 3%;
+         
+    }
+
+    
+}
